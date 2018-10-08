@@ -8,9 +8,9 @@ import time
 import sys
 import urllib2
 
-base = "BLMOIV"
+base = "BLMOII"
 berapa = int(raw_input("[+] Butuh Berapa Boss?: "))
-if berapa > 20:
+if berapa > 100:
 	print "[+] MARUK GOBLOK!"
 	sys.exit()
 def gene(size=4, chars=string.ascii_uppercase + string.digits):
